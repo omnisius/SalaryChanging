@@ -1,4 +1,4 @@
-package decorator.approvers;
+package chain.approvers;
 
 public class CheifApprover extends AbstractApprover {
     protected void write(String message) {

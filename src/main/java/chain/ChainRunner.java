@@ -1,9 +1,9 @@
-package decorator;
+package chain;
 
-import decorator.approvers.AbstractApprover;
-import decorator.approvers.CheifApprover;
-import decorator.approvers.FirstApprover;
-import decorator.approvers.SecondApprover;
+import chain.approvers.AbstractApprover;
+import chain.approvers.CheifApprover;
+import chain.approvers.FirstApprover;
+import chain.approvers.SecondApprover;
 
 public class ChainRunner {
 

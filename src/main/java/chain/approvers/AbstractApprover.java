@@ -1,8 +1,8 @@
-package decorator.approvers;
+package chain.approvers;
 
 public abstract class AbstractApprover {
 
-    protected AbstractApprover nextApprover;
+    private AbstractApprover nextApprover;
 
     public void setNextApprover(AbstractApprover nextApprover){
         this.nextApprover = nextApprover;
